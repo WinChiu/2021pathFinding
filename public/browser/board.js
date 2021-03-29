@@ -4,6 +4,7 @@ import bfs from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithm
 import dijkstra from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/dijkstra.js";
 import greedy from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/greedy.js";
 import AStar from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/AStar.js";
+
 // import dfs from "./Algorithms/DFS";
 // import bfs from "./Algorithms/BFS";
 // import dijkstra from "./Algorithms/dijkstra";
