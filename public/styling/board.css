@@ -1,5 +1,5 @@
-@import url("//db.onlinewebfonts.com/c/2547970600ac97f5d9bd0ebcc1f2dd9d?family=Font + Awesome + 5 + Brands");
-@import url("//db.onlinewebfonts.com/c/30c8e877e175d19bcbe6f8d90d1a4bc1?family=Font+Awesome+5+Clouds+Solid");
+/* @import url("//db.onlinewebfonts.com/c/2547970600ac97f5d9bd0ebcc1f2dd9d?family=Font + Awesome + 5 + Brands");
+@import url("//db.onlinewebfonts.com/c/30c8e877e175d19bcbe6f8d90d1a4bc1?family=Font+Awesome+5+Clouds+Solid"); */
 
 * {
     position: relative;
@@ -433,7 +433,7 @@ td {
 }
 
 
-@font-face {
+/* @font-face {
     font-family: "Font Awesome 5 Brands";
     src: url("//db.onlinewebfonts.com/t/2547970600ac97f5d9bd0ebcc1f2dd9d.eot");
     src: url("//db.onlinewebfonts.com/t/2547970600ac97f5d9bd0ebcc1f2dd9d.eot?#iefix") format("embedded-opentype"),
@@ -451,4 +451,4 @@ td {
         url("//db.onlinewebfonts.com/t/30c8e877e175d19bcbe6f8d90d1a4bc1.woff") format("woff"),
         url("//db.onlinewebfonts.com/t/30c8e877e175d19bcbe6f8d90d1a4bc1.ttf") format("truetype"),
         url("//db.onlinewebfonts.com/t/30c8e877e175d19bcbe6f8d90d1a4bc1.svg#Font Awesome 5 Clouds Solid") format("svg");
-}
+} */
