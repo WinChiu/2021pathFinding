@@ -1,10 +1,16 @@
 // import Node from "http://localhost:8000/public/browser/node.js";
+// import dfs from "http://localhost:8000/public/browser/Algorithms/DFS.js";
+// import bfs from "http://localhost:8000/public/browser/Algorithms/BFS.js";
+// import dijkstra from "http://localhost:8000/public/browser/Algorithms/dijkstra.js";
+// import greedy from "http://localhost:8000/public/browser/Algorithms/greedy.js";
+// import AStar from "http://localhost:8000/public/browser/Algorithms/AStar.js";
+
+import dfs from "./Algorithms/DFS";
+import bfs from "./Algorithms/BFS";
+import dijkstra from "./Algorithms/dijkstra";
+import greedy from "./Algorithms/greedy";
+import AStar from "./Algorithms/AStar";
 import Node from "./node";
-import dfs from "http://localhost:8000/public/browser/Algorithms/DFS.js";
-import bfs from "http://localhost:8000/public/browser/Algorithms/BFS.js";
-import dijkstra from "http://localhost:8000/public/browser/Algorithms/dijkstra.js";
-import greedy from "http://localhost:8000/public/browser/Algorithms/greedy.js";
-import AStar from "http://localhost:8000/public/browser/Algorithms/AStar.js";
 
 function Board(height, width) {
   this.height = height; // Height of the board
