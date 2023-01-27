@@ -1,16 +1,9 @@
-import Node from "https://wsa-path-finding.herokuapp.com/public/browser/node.js";
-import dfs from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/DFS.js";
-import bfs from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/BFS.js";
-import dijkstra from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/dijkstra.js";
-import greedy from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/greedy.js";
-import AStar from "https://wsa-path-finding.herokuapp.com/public/browser/Algorithms/AStar.js";
-
-// import dfs from "./Algorithms/DFS";
-// import bfs from "./Algorithms/BFS";
-// import dijkstra from "./Algorithms/dijkstra";
-// import greedy from "./Algorithms/greedy";
-// import AStar from "./Algorithms/AStar";
-// import Node from "./node";
+import dfs from "./Algorithms/DFS";
+import bfs from "./Algorithms/BFS";
+import dijkstra from "./Algorithms/dijkstra";
+import greedy from "./Algorithms/greedy";
+import AStar from "./Algorithms/AStar";
+import Node from "./node";
 
 function Board(height, width) {
   this.height = height; // Height of the board
