@@ -5,13 +5,13 @@ const PORT = process.env.PORT || 8000;
 
 app.use("/", express.static(__dirname));
 
-app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/test.html");
+app.get('/', function (req, res) {
+  res.sendFile(__dirname + '/test.html');
 });
 
 app.use(function (req, res, next) {
-  if (req.headers["x-forwarded-proto"] === "https") {
-    res.redirect("http://" + req.hostname + req.url);
+  if (req.headers['x-forwarded-proto'] === 'https') {
+    res.redirect('http://' + req.hostname + req.url);
   } else {
     next();
   }
